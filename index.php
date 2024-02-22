@@ -22,11 +22,11 @@
         <div class="option">
             <h2 class="my_title">Invio Campi</h2> </br>
         </div>
-        
+
         <div class="info_user">
-            
+
             <form action="CRUD/send.php" method="post" id="send_site">
-                
+
                 <label for="name_user">
                     <h4 class="title">inserisci nome</h4>
                 </label>
@@ -47,7 +47,7 @@
                     <h4 class="title">inserisci l'e-mail</h4>
                 </label>
                 <div class="text_style">
-                    <input id="register_mail" name="register_mail" class="my_input" type="text" placeholder="name@example.com">
+                    <input id="register_mail" name="register_mail" class="my_input" type="email" placeholder="name@example.com">
                     <span id="mail-error" class="error-message"></span>
                 </div>
 
@@ -61,12 +61,13 @@
 
 
                 <div class="my_login">
-                    <button type="submit" class="login_bt" >Invia</button>
+                    <button type="submit" class="login_bt">Invia</button>
                 </div>
             </form>
 
         </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 
